@@ -3,7 +3,7 @@ header("Content-type:application/json");
 
 include_once "simple_html_dom.php";
 
-$URL = "https://uz.weather.town/forecast/uzbekistan/xorazm-viloyati/urganch/";
+$URL = "https://uz.weather.town/forecast/uzbekistan/samarqand-viloyati/urgut/";
 $ch = curl_init($URL);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $res = curl_exec($ch);
